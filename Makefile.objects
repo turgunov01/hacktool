@@ -1,0 +1,399 @@
+-include sapi/cli/php_cli.dep
+sapi/cli/php_cli.lo: /Users/sardor/Downloads/php-8.1.11/sapi/cli/php_cli.c
+	$(LIBTOOL) --mode=compile $(CC) -Isapi/cli/ -I/Users/sardor/Downloads/php-8.1.11/sapi/cli/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -c /Users/sardor/Downloads/php-8.1.11/sapi/cli/php_cli.c -o sapi/cli/php_cli.lo  -MMD -MF sapi/cli/php_cli.dep -MT sapi/cli/php_cli.lo
+-include sapi/cli/php_http_parser.dep
+sapi/cli/php_http_parser.lo: /Users/sardor/Downloads/php-8.1.11/sapi/cli/php_http_parser.c
+	$(LIBTOOL) --mode=compile $(CC) -Isapi/cli/ -I/Users/sardor/Downloads/php-8.1.11/sapi/cli/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -c /Users/sardor/Downloads/php-8.1.11/sapi/cli/php_http_parser.c -o sapi/cli/php_http_parser.lo  -MMD -MF sapi/cli/php_http_parser.dep -MT sapi/cli/php_http_parser.lo
+-include sapi/cli/php_cli_server.dep
+sapi/cli/php_cli_server.lo: /Users/sardor/Downloads/php-8.1.11/sapi/cli/php_cli_server.c
+	$(LIBTOOL) --mode=compile $(CC) -Isapi/cli/ -I/Users/sardor/Downloads/php-8.1.11/sapi/cli/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -c /Users/sardor/Downloads/php-8.1.11/sapi/cli/php_cli_server.c -o sapi/cli/php_cli_server.lo  -MMD -MF sapi/cli/php_cli_server.dep -MT sapi/cli/php_cli_server.lo
+-include sapi/cli/ps_title.dep
+sapi/cli/ps_title.lo: /Users/sardor/Downloads/php-8.1.11/sapi/cli/ps_title.c
+	$(LIBTOOL) --mode=compile $(CC) -Isapi/cli/ -I/Users/sardor/Downloads/php-8.1.11/sapi/cli/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -c /Users/sardor/Downloads/php-8.1.11/sapi/cli/ps_title.c -o sapi/cli/ps_title.lo  -MMD -MF sapi/cli/ps_title.dep -MT sapi/cli/ps_title.lo
+-include sapi/cli/php_cli_process_title.dep
+sapi/cli/php_cli_process_title.lo: /Users/sardor/Downloads/php-8.1.11/sapi/cli/php_cli_process_title.c
+	$(LIBTOOL) --mode=compile $(CC) -Isapi/cli/ -I/Users/sardor/Downloads/php-8.1.11/sapi/cli/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -c /Users/sardor/Downloads/php-8.1.11/sapi/cli/php_cli_process_title.c -o sapi/cli/php_cli_process_title.lo  -MMD -MF sapi/cli/php_cli_process_title.dep -MT sapi/cli/php_cli_process_title.lo
+-include sapi/phpdbg/phpdbg.dep
+sapi/phpdbg/phpdbg.lo: /Users/sardor/Downloads/php-8.1.11/sapi/phpdbg/phpdbg.c
+	$(LIBTOOL) --mode=compile $(CC) -Isapi/phpdbg/ -I/Users/sardor/Downloads/php-8.1.11/sapi/phpdbg/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -D_GNU_SOURCE -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -c /Users/sardor/Downloads/php-8.1.11/sapi/phpdbg/phpdbg.c -o sapi/phpdbg/phpdbg.lo  -MMD -MF sapi/phpdbg/phpdbg.dep -MT sapi/phpdbg/phpdbg.lo
+-include sapi/phpdbg/phpdbg_parser.dep
+sapi/phpdbg/phpdbg_parser.lo: /Users/sardor/Downloads/php-8.1.11/sapi/phpdbg/phpdbg_parser.c
+	$(LIBTOOL) --mode=compile $(CC) -Isapi/phpdbg/ -I/Users/sardor/Downloads/php-8.1.11/sapi/phpdbg/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -D_GNU_SOURCE -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -c /Users/sardor/Downloads/php-8.1.11/sapi/phpdbg/phpdbg_parser.c -o sapi/phpdbg/phpdbg_parser.lo  -MMD -MF sapi/phpdbg/phpdbg_parser.dep -MT sapi/phpdbg/phpdbg_parser.lo
+-include sapi/phpdbg/phpdbg_lexer.dep
+sapi/phpdbg/phpdbg_lexer.lo: /Users/sardor/Downloads/php-8.1.11/sapi/phpdbg/phpdbg_lexer.c
+	$(LIBTOOL) --mode=compile $(CC) -Isapi/phpdbg/ -I/Users/sardor/Downloads/php-8.1.11/sapi/phpdbg/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -D_GNU_SOURCE -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -c /Users/sardor/Downloads/php-8.1.11/sapi/phpdbg/phpdbg_lexer.c -o sapi/phpdbg/phpdbg_lexer.lo  -MMD -MF sapi/phpdbg/phpdbg_lexer.dep -MT sapi/phpdbg/phpdbg_lexer.lo
+-include sapi/phpdbg/phpdbg_prompt.dep
+sapi/phpdbg/phpdbg_prompt.lo: /Users/sardor/Downloads/php-8.1.11/sapi/phpdbg/phpdbg_prompt.c
+	$(LIBTOOL) --mode=compile $(CC) -Isapi/phpdbg/ -I/Users/sardor/Downloads/php-8.1.11/sapi/phpdbg/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -D_GNU_SOURCE -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -c /Users/sardor/Downloads/php-8.1.11/sapi/phpdbg/phpdbg_prompt.c -o sapi/phpdbg/phpdbg_prompt.lo  -MMD -MF sapi/phpdbg/phpdbg_prompt.dep -MT sapi/phpdbg/phpdbg_prompt.lo
+-include sapi/phpdbg/phpdbg_help.dep
+sapi/phpdbg/phpdbg_help.lo: /Users/sardor/Downloads/php-8.1.11/sapi/phpdbg/phpdbg_help.c
+	$(LIBTOOL) --mode=compile $(CC) -Isapi/phpdbg/ -I/Users/sardor/Downloads/php-8.1.11/sapi/phpdbg/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -D_GNU_SOURCE -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -c /Users/sardor/Downloads/php-8.1.11/sapi/phpdbg/phpdbg_help.c -o sapi/phpdbg/phpdbg_help.lo  -MMD -MF sapi/phpdbg/phpdbg_help.dep -MT sapi/phpdbg/phpdbg_help.lo
+-include sapi/phpdbg/phpdbg_break.dep
+sapi/phpdbg/phpdbg_break.lo: /Users/sardor/Downloads/php-8.1.11/sapi/phpdbg/phpdbg_break.c
+	$(LIBTOOL) --mode=compile $(CC) -Isapi/phpdbg/ -I/Users/sardor/Downloads/php-8.1.11/sapi/phpdbg/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -D_GNU_SOURCE -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -c /Users/sardor/Downloads/php-8.1.11/sapi/phpdbg/phpdbg_break.c -o sapi/phpdbg/phpdbg_break.lo  -MMD -MF sapi/phpdbg/phpdbg_break.dep -MT sapi/phpdbg/phpdbg_break.lo
+-include sapi/phpdbg/phpdbg_print.dep
+sapi/phpdbg/phpdbg_print.lo: /Users/sardor/Downloads/php-8.1.11/sapi/phpdbg/phpdbg_print.c
+	$(LIBTOOL) --mode=compile $(CC) -Isapi/phpdbg/ -I/Users/sardor/Downloads/php-8.1.11/sapi/phpdbg/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -D_GNU_SOURCE -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -c /Users/sardor/Downloads/php-8.1.11/sapi/phpdbg/phpdbg_print.c -o sapi/phpdbg/phpdbg_print.lo  -MMD -MF sapi/phpdbg/phpdbg_print.dep -MT sapi/phpdbg/phpdbg_print.lo
+-include sapi/phpdbg/phpdbg_bp.dep
+sapi/phpdbg/phpdbg_bp.lo: /Users/sardor/Downloads/php-8.1.11/sapi/phpdbg/phpdbg_bp.c
+	$(LIBTOOL) --mode=compile $(CC) -Isapi/phpdbg/ -I/Users/sardor/Downloads/php-8.1.11/sapi/phpdbg/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -D_GNU_SOURCE -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -c /Users/sardor/Downloads/php-8.1.11/sapi/phpdbg/phpdbg_bp.c -o sapi/phpdbg/phpdbg_bp.lo  -MMD -MF sapi/phpdbg/phpdbg_bp.dep -MT sapi/phpdbg/phpdbg_bp.lo
+-include sapi/phpdbg/phpdbg_list.dep
+sapi/phpdbg/phpdbg_list.lo: /Users/sardor/Downloads/php-8.1.11/sapi/phpdbg/phpdbg_list.c
+	$(LIBTOOL) --mode=compile $(CC) -Isapi/phpdbg/ -I/Users/sardor/Downloads/php-8.1.11/sapi/phpdbg/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -D_GNU_SOURCE -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -c /Users/sardor/Downloads/php-8.1.11/sapi/phpdbg/phpdbg_list.c -o sapi/phpdbg/phpdbg_list.lo  -MMD -MF sapi/phpdbg/phpdbg_list.dep -MT sapi/phpdbg/phpdbg_list.lo
+-include sapi/phpdbg/phpdbg_utils.dep
+sapi/phpdbg/phpdbg_utils.lo: /Users/sardor/Downloads/php-8.1.11/sapi/phpdbg/phpdbg_utils.c
+	$(LIBTOOL) --mode=compile $(CC) -Isapi/phpdbg/ -I/Users/sardor/Downloads/php-8.1.11/sapi/phpdbg/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -D_GNU_SOURCE -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -c /Users/sardor/Downloads/php-8.1.11/sapi/phpdbg/phpdbg_utils.c -o sapi/phpdbg/phpdbg_utils.lo  -MMD -MF sapi/phpdbg/phpdbg_utils.dep -MT sapi/phpdbg/phpdbg_utils.lo
+-include sapi/phpdbg/phpdbg_info.dep
+sapi/phpdbg/phpdbg_info.lo: /Users/sardor/Downloads/php-8.1.11/sapi/phpdbg/phpdbg_info.c
+	$(LIBTOOL) --mode=compile $(CC) -Isapi/phpdbg/ -I/Users/sardor/Downloads/php-8.1.11/sapi/phpdbg/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -D_GNU_SOURCE -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -c /Users/sardor/Downloads/php-8.1.11/sapi/phpdbg/phpdbg_info.c -o sapi/phpdbg/phpdbg_info.lo  -MMD -MF sapi/phpdbg/phpdbg_info.dep -MT sapi/phpdbg/phpdbg_info.lo
+-include sapi/phpdbg/phpdbg_cmd.dep
+sapi/phpdbg/phpdbg_cmd.lo: /Users/sardor/Downloads/php-8.1.11/sapi/phpdbg/phpdbg_cmd.c
+	$(LIBTOOL) --mode=compile $(CC) -Isapi/phpdbg/ -I/Users/sardor/Downloads/php-8.1.11/sapi/phpdbg/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -D_GNU_SOURCE -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -c /Users/sardor/Downloads/php-8.1.11/sapi/phpdbg/phpdbg_cmd.c -o sapi/phpdbg/phpdbg_cmd.lo  -MMD -MF sapi/phpdbg/phpdbg_cmd.dep -MT sapi/phpdbg/phpdbg_cmd.lo
+-include sapi/phpdbg/phpdbg_set.dep
+sapi/phpdbg/phpdbg_set.lo: /Users/sardor/Downloads/php-8.1.11/sapi/phpdbg/phpdbg_set.c
+	$(LIBTOOL) --mode=compile $(CC) -Isapi/phpdbg/ -I/Users/sardor/Downloads/php-8.1.11/sapi/phpdbg/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -D_GNU_SOURCE -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -c /Users/sardor/Downloads/php-8.1.11/sapi/phpdbg/phpdbg_set.c -o sapi/phpdbg/phpdbg_set.lo  -MMD -MF sapi/phpdbg/phpdbg_set.dep -MT sapi/phpdbg/phpdbg_set.lo
+-include sapi/phpdbg/phpdbg_frame.dep
+sapi/phpdbg/phpdbg_frame.lo: /Users/sardor/Downloads/php-8.1.11/sapi/phpdbg/phpdbg_frame.c
+	$(LIBTOOL) --mode=compile $(CC) -Isapi/phpdbg/ -I/Users/sardor/Downloads/php-8.1.11/sapi/phpdbg/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -D_GNU_SOURCE -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -c /Users/sardor/Downloads/php-8.1.11/sapi/phpdbg/phpdbg_frame.c -o sapi/phpdbg/phpdbg_frame.lo  -MMD -MF sapi/phpdbg/phpdbg_frame.dep -MT sapi/phpdbg/phpdbg_frame.lo
+-include sapi/phpdbg/phpdbg_watch.dep
+sapi/phpdbg/phpdbg_watch.lo: /Users/sardor/Downloads/php-8.1.11/sapi/phpdbg/phpdbg_watch.c
+	$(LIBTOOL) --mode=compile $(CC) -Isapi/phpdbg/ -I/Users/sardor/Downloads/php-8.1.11/sapi/phpdbg/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -D_GNU_SOURCE -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -c /Users/sardor/Downloads/php-8.1.11/sapi/phpdbg/phpdbg_watch.c -o sapi/phpdbg/phpdbg_watch.lo  -MMD -MF sapi/phpdbg/phpdbg_watch.dep -MT sapi/phpdbg/phpdbg_watch.lo
+-include sapi/phpdbg/phpdbg_btree.dep
+sapi/phpdbg/phpdbg_btree.lo: /Users/sardor/Downloads/php-8.1.11/sapi/phpdbg/phpdbg_btree.c
+	$(LIBTOOL) --mode=compile $(CC) -Isapi/phpdbg/ -I/Users/sardor/Downloads/php-8.1.11/sapi/phpdbg/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -D_GNU_SOURCE -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -c /Users/sardor/Downloads/php-8.1.11/sapi/phpdbg/phpdbg_btree.c -o sapi/phpdbg/phpdbg_btree.lo  -MMD -MF sapi/phpdbg/phpdbg_btree.dep -MT sapi/phpdbg/phpdbg_btree.lo
+-include sapi/phpdbg/phpdbg_sigsafe.dep
+sapi/phpdbg/phpdbg_sigsafe.lo: /Users/sardor/Downloads/php-8.1.11/sapi/phpdbg/phpdbg_sigsafe.c
+	$(LIBTOOL) --mode=compile $(CC) -Isapi/phpdbg/ -I/Users/sardor/Downloads/php-8.1.11/sapi/phpdbg/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -D_GNU_SOURCE -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -c /Users/sardor/Downloads/php-8.1.11/sapi/phpdbg/phpdbg_sigsafe.c -o sapi/phpdbg/phpdbg_sigsafe.lo  -MMD -MF sapi/phpdbg/phpdbg_sigsafe.dep -MT sapi/phpdbg/phpdbg_sigsafe.lo
+-include sapi/phpdbg/phpdbg_io.dep
+sapi/phpdbg/phpdbg_io.lo: /Users/sardor/Downloads/php-8.1.11/sapi/phpdbg/phpdbg_io.c
+	$(LIBTOOL) --mode=compile $(CC) -Isapi/phpdbg/ -I/Users/sardor/Downloads/php-8.1.11/sapi/phpdbg/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -D_GNU_SOURCE -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -c /Users/sardor/Downloads/php-8.1.11/sapi/phpdbg/phpdbg_io.c -o sapi/phpdbg/phpdbg_io.lo  -MMD -MF sapi/phpdbg/phpdbg_io.dep -MT sapi/phpdbg/phpdbg_io.lo
+-include sapi/phpdbg/phpdbg_out.dep
+sapi/phpdbg/phpdbg_out.lo: /Users/sardor/Downloads/php-8.1.11/sapi/phpdbg/phpdbg_out.c
+	$(LIBTOOL) --mode=compile $(CC) -Isapi/phpdbg/ -I/Users/sardor/Downloads/php-8.1.11/sapi/phpdbg/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -D_GNU_SOURCE -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -c /Users/sardor/Downloads/php-8.1.11/sapi/phpdbg/phpdbg_out.c -o sapi/phpdbg/phpdbg_out.lo  -MMD -MF sapi/phpdbg/phpdbg_out.dep -MT sapi/phpdbg/phpdbg_out.lo
+-include sapi/cgi/cgi_main.dep
+sapi/cgi/cgi_main.lo: /Users/sardor/Downloads/php-8.1.11/sapi/cgi/cgi_main.c
+	$(LIBTOOL) --mode=compile $(CC) -Isapi/cgi/ -I/Users/sardor/Downloads/php-8.1.11/sapi/cgi/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -c /Users/sardor/Downloads/php-8.1.11/sapi/cgi/cgi_main.c -o sapi/cgi/cgi_main.lo  -MMD -MF sapi/cgi/cgi_main.dep -MT sapi/cgi/cgi_main.lo
+-include ext/date/php_date.dep
+ext/date/php_date.lo: /Users/sardor/Downloads/php-8.1.11/ext/date/php_date.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/date/ -I/Users/sardor/Downloads/php-8.1.11/ext/date/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -Iext/date/lib -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -DHAVE_TIMELIB_CONFIG_H=1 -c /Users/sardor/Downloads/php-8.1.11/ext/date/php_date.c -o ext/date/php_date.lo  -MMD -MF ext/date/php_date.dep -MT ext/date/php_date.lo
+-include ext/date/lib/astro.dep
+ext/date/lib/astro.lo: /Users/sardor/Downloads/php-8.1.11/ext/date/lib/astro.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/date/ -I/Users/sardor/Downloads/php-8.1.11/ext/date/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -Iext/date/lib -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -DHAVE_TIMELIB_CONFIG_H=1 -c /Users/sardor/Downloads/php-8.1.11/ext/date/lib/astro.c -o ext/date/lib/astro.lo  -MMD -MF ext/date/lib/astro.dep -MT ext/date/lib/astro.lo
+-include ext/date/lib/dow.dep
+ext/date/lib/dow.lo: /Users/sardor/Downloads/php-8.1.11/ext/date/lib/dow.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/date/ -I/Users/sardor/Downloads/php-8.1.11/ext/date/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -Iext/date/lib -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -DHAVE_TIMELIB_CONFIG_H=1 -c /Users/sardor/Downloads/php-8.1.11/ext/date/lib/dow.c -o ext/date/lib/dow.lo  -MMD -MF ext/date/lib/dow.dep -MT ext/date/lib/dow.lo
+-include ext/date/lib/parse_date.dep
+ext/date/lib/parse_date.lo: /Users/sardor/Downloads/php-8.1.11/ext/date/lib/parse_date.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/date/ -I/Users/sardor/Downloads/php-8.1.11/ext/date/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -Iext/date/lib -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -DHAVE_TIMELIB_CONFIG_H=1 -c /Users/sardor/Downloads/php-8.1.11/ext/date/lib/parse_date.c -o ext/date/lib/parse_date.lo  -MMD -MF ext/date/lib/parse_date.dep -MT ext/date/lib/parse_date.lo
+-include ext/date/lib/parse_tz.dep
+ext/date/lib/parse_tz.lo: /Users/sardor/Downloads/php-8.1.11/ext/date/lib/parse_tz.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/date/ -I/Users/sardor/Downloads/php-8.1.11/ext/date/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -Iext/date/lib -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -DHAVE_TIMELIB_CONFIG_H=1 -c /Users/sardor/Downloads/php-8.1.11/ext/date/lib/parse_tz.c -o ext/date/lib/parse_tz.lo  -MMD -MF ext/date/lib/parse_tz.dep -MT ext/date/lib/parse_tz.lo
+-include ext/date/lib/parse_posix.dep
+ext/date/lib/parse_posix.lo: /Users/sardor/Downloads/php-8.1.11/ext/date/lib/parse_posix.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/date/ -I/Users/sardor/Downloads/php-8.1.11/ext/date/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -Iext/date/lib -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -DHAVE_TIMELIB_CONFIG_H=1 -c /Users/sardor/Downloads/php-8.1.11/ext/date/lib/parse_posix.c -o ext/date/lib/parse_posix.lo  -MMD -MF ext/date/lib/parse_posix.dep -MT ext/date/lib/parse_posix.lo
+-include ext/date/lib/timelib.dep
+ext/date/lib/timelib.lo: /Users/sardor/Downloads/php-8.1.11/ext/date/lib/timelib.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/date/ -I/Users/sardor/Downloads/php-8.1.11/ext/date/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -Iext/date/lib -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -DHAVE_TIMELIB_CONFIG_H=1 -c /Users/sardor/Downloads/php-8.1.11/ext/date/lib/timelib.c -o ext/date/lib/timelib.lo  -MMD -MF ext/date/lib/timelib.dep -MT ext/date/lib/timelib.lo
+-include ext/date/lib/tm2unixtime.dep
+ext/date/lib/tm2unixtime.lo: /Users/sardor/Downloads/php-8.1.11/ext/date/lib/tm2unixtime.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/date/ -I/Users/sardor/Downloads/php-8.1.11/ext/date/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -Iext/date/lib -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -DHAVE_TIMELIB_CONFIG_H=1 -c /Users/sardor/Downloads/php-8.1.11/ext/date/lib/tm2unixtime.c -o ext/date/lib/tm2unixtime.lo  -MMD -MF ext/date/lib/tm2unixtime.dep -MT ext/date/lib/tm2unixtime.lo
+-include ext/date/lib/unixtime2tm.dep
+ext/date/lib/unixtime2tm.lo: /Users/sardor/Downloads/php-8.1.11/ext/date/lib/unixtime2tm.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/date/ -I/Users/sardor/Downloads/php-8.1.11/ext/date/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -Iext/date/lib -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -DHAVE_TIMELIB_CONFIG_H=1 -c /Users/sardor/Downloads/php-8.1.11/ext/date/lib/unixtime2tm.c -o ext/date/lib/unixtime2tm.lo  -MMD -MF ext/date/lib/unixtime2tm.dep -MT ext/date/lib/unixtime2tm.lo
+-include ext/date/lib/parse_iso_intervals.dep
+ext/date/lib/parse_iso_intervals.lo: /Users/sardor/Downloads/php-8.1.11/ext/date/lib/parse_iso_intervals.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/date/ -I/Users/sardor/Downloads/php-8.1.11/ext/date/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -Iext/date/lib -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -DHAVE_TIMELIB_CONFIG_H=1 -c /Users/sardor/Downloads/php-8.1.11/ext/date/lib/parse_iso_intervals.c -o ext/date/lib/parse_iso_intervals.lo  -MMD -MF ext/date/lib/parse_iso_intervals.dep -MT ext/date/lib/parse_iso_intervals.lo
+-include ext/date/lib/interval.dep
+ext/date/lib/interval.lo: /Users/sardor/Downloads/php-8.1.11/ext/date/lib/interval.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/date/ -I/Users/sardor/Downloads/php-8.1.11/ext/date/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -Iext/date/lib -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -DHAVE_TIMELIB_CONFIG_H=1 -c /Users/sardor/Downloads/php-8.1.11/ext/date/lib/interval.c -o ext/date/lib/interval.lo  -MMD -MF ext/date/lib/interval.dep -MT ext/date/lib/interval.lo
+-include ext/libxml/libxml.dep
+ext/libxml/libxml.lo: /Users/sardor/Downloads/php-8.1.11/ext/libxml/libxml.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/libxml/ -I/Users/sardor/Downloads/php-8.1.11/ext/libxml/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -c /Users/sardor/Downloads/php-8.1.11/ext/libxml/libxml.c -o ext/libxml/libxml.lo  -MMD -MF ext/libxml/libxml.dep -MT ext/libxml/libxml.lo
+-include ext/pcre/pcre2lib/pcre2_auto_possess.dep
+ext/pcre/pcre2lib/pcre2_auto_possess.lo: /Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib/pcre2_auto_possess.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/pcre/ -I/Users/sardor/Downloads/php-8.1.11/ext/pcre/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -DHAVE_CONFIG_H -I/Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -c /Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib/pcre2_auto_possess.c -o ext/pcre/pcre2lib/pcre2_auto_possess.lo  -MMD -MF ext/pcre/pcre2lib/pcre2_auto_possess.dep -MT ext/pcre/pcre2lib/pcre2_auto_possess.lo
+-include ext/pcre/pcre2lib/pcre2_chartables.dep
+ext/pcre/pcre2lib/pcre2_chartables.lo: /Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib/pcre2_chartables.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/pcre/ -I/Users/sardor/Downloads/php-8.1.11/ext/pcre/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -DHAVE_CONFIG_H -I/Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -c /Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib/pcre2_chartables.c -o ext/pcre/pcre2lib/pcre2_chartables.lo  -MMD -MF ext/pcre/pcre2lib/pcre2_chartables.dep -MT ext/pcre/pcre2lib/pcre2_chartables.lo
+-include ext/pcre/pcre2lib/pcre2_compile.dep
+ext/pcre/pcre2lib/pcre2_compile.lo: /Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib/pcre2_compile.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/pcre/ -I/Users/sardor/Downloads/php-8.1.11/ext/pcre/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -DHAVE_CONFIG_H -I/Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -c /Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib/pcre2_compile.c -o ext/pcre/pcre2lib/pcre2_compile.lo  -MMD -MF ext/pcre/pcre2lib/pcre2_compile.dep -MT ext/pcre/pcre2lib/pcre2_compile.lo
+-include ext/pcre/pcre2lib/pcre2_config.dep
+ext/pcre/pcre2lib/pcre2_config.lo: /Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib/pcre2_config.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/pcre/ -I/Users/sardor/Downloads/php-8.1.11/ext/pcre/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -DHAVE_CONFIG_H -I/Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -c /Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib/pcre2_config.c -o ext/pcre/pcre2lib/pcre2_config.lo  -MMD -MF ext/pcre/pcre2lib/pcre2_config.dep -MT ext/pcre/pcre2lib/pcre2_config.lo
+-include ext/pcre/pcre2lib/pcre2_context.dep
+ext/pcre/pcre2lib/pcre2_context.lo: /Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib/pcre2_context.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/pcre/ -I/Users/sardor/Downloads/php-8.1.11/ext/pcre/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -DHAVE_CONFIG_H -I/Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -c /Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib/pcre2_context.c -o ext/pcre/pcre2lib/pcre2_context.lo  -MMD -MF ext/pcre/pcre2lib/pcre2_context.dep -MT ext/pcre/pcre2lib/pcre2_context.lo
+-include ext/pcre/pcre2lib/pcre2_dfa_match.dep
+ext/pcre/pcre2lib/pcre2_dfa_match.lo: /Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib/pcre2_dfa_match.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/pcre/ -I/Users/sardor/Downloads/php-8.1.11/ext/pcre/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -DHAVE_CONFIG_H -I/Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -c /Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib/pcre2_dfa_match.c -o ext/pcre/pcre2lib/pcre2_dfa_match.lo  -MMD -MF ext/pcre/pcre2lib/pcre2_dfa_match.dep -MT ext/pcre/pcre2lib/pcre2_dfa_match.lo
+-include ext/pcre/pcre2lib/pcre2_error.dep
+ext/pcre/pcre2lib/pcre2_error.lo: /Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib/pcre2_error.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/pcre/ -I/Users/sardor/Downloads/php-8.1.11/ext/pcre/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -DHAVE_CONFIG_H -I/Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -c /Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib/pcre2_error.c -o ext/pcre/pcre2lib/pcre2_error.lo  -MMD -MF ext/pcre/pcre2lib/pcre2_error.dep -MT ext/pcre/pcre2lib/pcre2_error.lo
+-include ext/pcre/pcre2lib/pcre2_jit_compile.dep
+ext/pcre/pcre2lib/pcre2_jit_compile.lo: /Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib/pcre2_jit_compile.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/pcre/ -I/Users/sardor/Downloads/php-8.1.11/ext/pcre/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -DHAVE_CONFIG_H -I/Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -c /Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib/pcre2_jit_compile.c -o ext/pcre/pcre2lib/pcre2_jit_compile.lo  -MMD -MF ext/pcre/pcre2lib/pcre2_jit_compile.dep -MT ext/pcre/pcre2lib/pcre2_jit_compile.lo
+-include ext/pcre/pcre2lib/pcre2_maketables.dep
+ext/pcre/pcre2lib/pcre2_maketables.lo: /Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib/pcre2_maketables.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/pcre/ -I/Users/sardor/Downloads/php-8.1.11/ext/pcre/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -DHAVE_CONFIG_H -I/Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -c /Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib/pcre2_maketables.c -o ext/pcre/pcre2lib/pcre2_maketables.lo  -MMD -MF ext/pcre/pcre2lib/pcre2_maketables.dep -MT ext/pcre/pcre2lib/pcre2_maketables.lo
+-include ext/pcre/pcre2lib/pcre2_match.dep
+ext/pcre/pcre2lib/pcre2_match.lo: /Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib/pcre2_match.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/pcre/ -I/Users/sardor/Downloads/php-8.1.11/ext/pcre/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -DHAVE_CONFIG_H -I/Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -c /Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib/pcre2_match.c -o ext/pcre/pcre2lib/pcre2_match.lo  -MMD -MF ext/pcre/pcre2lib/pcre2_match.dep -MT ext/pcre/pcre2lib/pcre2_match.lo
+-include ext/pcre/pcre2lib/pcre2_match_data.dep
+ext/pcre/pcre2lib/pcre2_match_data.lo: /Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib/pcre2_match_data.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/pcre/ -I/Users/sardor/Downloads/php-8.1.11/ext/pcre/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -DHAVE_CONFIG_H -I/Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -c /Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib/pcre2_match_data.c -o ext/pcre/pcre2lib/pcre2_match_data.lo  -MMD -MF ext/pcre/pcre2lib/pcre2_match_data.dep -MT ext/pcre/pcre2lib/pcre2_match_data.lo
+-include ext/pcre/pcre2lib/pcre2_newline.dep
+ext/pcre/pcre2lib/pcre2_newline.lo: /Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib/pcre2_newline.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/pcre/ -I/Users/sardor/Downloads/php-8.1.11/ext/pcre/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -DHAVE_CONFIG_H -I/Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -c /Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib/pcre2_newline.c -o ext/pcre/pcre2lib/pcre2_newline.lo  -MMD -MF ext/pcre/pcre2lib/pcre2_newline.dep -MT ext/pcre/pcre2lib/pcre2_newline.lo
+-include ext/pcre/pcre2lib/pcre2_ord2utf.dep
+ext/pcre/pcre2lib/pcre2_ord2utf.lo: /Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib/pcre2_ord2utf.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/pcre/ -I/Users/sardor/Downloads/php-8.1.11/ext/pcre/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -DHAVE_CONFIG_H -I/Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -c /Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib/pcre2_ord2utf.c -o ext/pcre/pcre2lib/pcre2_ord2utf.lo  -MMD -MF ext/pcre/pcre2lib/pcre2_ord2utf.dep -MT ext/pcre/pcre2lib/pcre2_ord2utf.lo
+-include ext/pcre/pcre2lib/pcre2_pattern_info.dep
+ext/pcre/pcre2lib/pcre2_pattern_info.lo: /Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib/pcre2_pattern_info.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/pcre/ -I/Users/sardor/Downloads/php-8.1.11/ext/pcre/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -DHAVE_CONFIG_H -I/Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -c /Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib/pcre2_pattern_info.c -o ext/pcre/pcre2lib/pcre2_pattern_info.lo  -MMD -MF ext/pcre/pcre2lib/pcre2_pattern_info.dep -MT ext/pcre/pcre2lib/pcre2_pattern_info.lo
+-include ext/pcre/pcre2lib/pcre2_serialize.dep
+ext/pcre/pcre2lib/pcre2_serialize.lo: /Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib/pcre2_serialize.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/pcre/ -I/Users/sardor/Downloads/php-8.1.11/ext/pcre/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -DHAVE_CONFIG_H -I/Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -c /Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib/pcre2_serialize.c -o ext/pcre/pcre2lib/pcre2_serialize.lo  -MMD -MF ext/pcre/pcre2lib/pcre2_serialize.dep -MT ext/pcre/pcre2lib/pcre2_serialize.lo
+-include ext/pcre/pcre2lib/pcre2_string_utils.dep
+ext/pcre/pcre2lib/pcre2_string_utils.lo: /Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib/pcre2_string_utils.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/pcre/ -I/Users/sardor/Downloads/php-8.1.11/ext/pcre/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -DHAVE_CONFIG_H -I/Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -c /Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib/pcre2_string_utils.c -o ext/pcre/pcre2lib/pcre2_string_utils.lo  -MMD -MF ext/pcre/pcre2lib/pcre2_string_utils.dep -MT ext/pcre/pcre2lib/pcre2_string_utils.lo
+-include ext/pcre/pcre2lib/pcre2_study.dep
+ext/pcre/pcre2lib/pcre2_study.lo: /Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib/pcre2_study.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/pcre/ -I/Users/sardor/Downloads/php-8.1.11/ext/pcre/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -DHAVE_CONFIG_H -I/Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -c /Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib/pcre2_study.c -o ext/pcre/pcre2lib/pcre2_study.lo  -MMD -MF ext/pcre/pcre2lib/pcre2_study.dep -MT ext/pcre/pcre2lib/pcre2_study.lo
+-include ext/pcre/pcre2lib/pcre2_substitute.dep
+ext/pcre/pcre2lib/pcre2_substitute.lo: /Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib/pcre2_substitute.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/pcre/ -I/Users/sardor/Downloads/php-8.1.11/ext/pcre/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -DHAVE_CONFIG_H -I/Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -c /Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib/pcre2_substitute.c -o ext/pcre/pcre2lib/pcre2_substitute.lo  -MMD -MF ext/pcre/pcre2lib/pcre2_substitute.dep -MT ext/pcre/pcre2lib/pcre2_substitute.lo
+-include ext/pcre/pcre2lib/pcre2_substring.dep
+ext/pcre/pcre2lib/pcre2_substring.lo: /Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib/pcre2_substring.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/pcre/ -I/Users/sardor/Downloads/php-8.1.11/ext/pcre/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -DHAVE_CONFIG_H -I/Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -c /Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib/pcre2_substring.c -o ext/pcre/pcre2lib/pcre2_substring.lo  -MMD -MF ext/pcre/pcre2lib/pcre2_substring.dep -MT ext/pcre/pcre2lib/pcre2_substring.lo
+-include ext/pcre/pcre2lib/pcre2_tables.dep
+ext/pcre/pcre2lib/pcre2_tables.lo: /Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib/pcre2_tables.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/pcre/ -I/Users/sardor/Downloads/php-8.1.11/ext/pcre/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -DHAVE_CONFIG_H -I/Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -c /Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib/pcre2_tables.c -o ext/pcre/pcre2lib/pcre2_tables.lo  -MMD -MF ext/pcre/pcre2lib/pcre2_tables.dep -MT ext/pcre/pcre2lib/pcre2_tables.lo
+-include ext/pcre/pcre2lib/pcre2_ucd.dep
+ext/pcre/pcre2lib/pcre2_ucd.lo: /Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib/pcre2_ucd.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/pcre/ -I/Users/sardor/Downloads/php-8.1.11/ext/pcre/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -DHAVE_CONFIG_H -I/Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -c /Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib/pcre2_ucd.c -o ext/pcre/pcre2lib/pcre2_ucd.lo  -MMD -MF ext/pcre/pcre2lib/pcre2_ucd.dep -MT ext/pcre/pcre2lib/pcre2_ucd.lo
+-include ext/pcre/pcre2lib/pcre2_valid_utf.dep
+ext/pcre/pcre2lib/pcre2_valid_utf.lo: /Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib/pcre2_valid_utf.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/pcre/ -I/Users/sardor/Downloads/php-8.1.11/ext/pcre/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -DHAVE_CONFIG_H -I/Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -c /Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib/pcre2_valid_utf.c -o ext/pcre/pcre2lib/pcre2_valid_utf.lo  -MMD -MF ext/pcre/pcre2lib/pcre2_valid_utf.dep -MT ext/pcre/pcre2lib/pcre2_valid_utf.lo
+-include ext/pcre/pcre2lib/pcre2_xclass.dep
+ext/pcre/pcre2lib/pcre2_xclass.lo: /Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib/pcre2_xclass.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/pcre/ -I/Users/sardor/Downloads/php-8.1.11/ext/pcre/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -DHAVE_CONFIG_H -I/Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -c /Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib/pcre2_xclass.c -o ext/pcre/pcre2lib/pcre2_xclass.lo  -MMD -MF ext/pcre/pcre2lib/pcre2_xclass.dep -MT ext/pcre/pcre2lib/pcre2_xclass.lo
+-include ext/pcre/pcre2lib/pcre2_find_bracket.dep
+ext/pcre/pcre2lib/pcre2_find_bracket.lo: /Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib/pcre2_find_bracket.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/pcre/ -I/Users/sardor/Downloads/php-8.1.11/ext/pcre/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -DHAVE_CONFIG_H -I/Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -c /Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib/pcre2_find_bracket.c -o ext/pcre/pcre2lib/pcre2_find_bracket.lo  -MMD -MF ext/pcre/pcre2lib/pcre2_find_bracket.dep -MT ext/pcre/pcre2lib/pcre2_find_bracket.lo
+-include ext/pcre/pcre2lib/pcre2_convert.dep
+ext/pcre/pcre2lib/pcre2_convert.lo: /Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib/pcre2_convert.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/pcre/ -I/Users/sardor/Downloads/php-8.1.11/ext/pcre/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -DHAVE_CONFIG_H -I/Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -c /Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib/pcre2_convert.c -o ext/pcre/pcre2lib/pcre2_convert.lo  -MMD -MF ext/pcre/pcre2lib/pcre2_convert.dep -MT ext/pcre/pcre2lib/pcre2_convert.lo
+-include ext/pcre/pcre2lib/pcre2_extuni.dep
+ext/pcre/pcre2lib/pcre2_extuni.lo: /Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib/pcre2_extuni.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/pcre/ -I/Users/sardor/Downloads/php-8.1.11/ext/pcre/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -DHAVE_CONFIG_H -I/Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -c /Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib/pcre2_extuni.c -o ext/pcre/pcre2lib/pcre2_extuni.lo  -MMD -MF ext/pcre/pcre2lib/pcre2_extuni.dep -MT ext/pcre/pcre2lib/pcre2_extuni.lo
+-include ext/pcre/pcre2lib/pcre2_script_run.dep
+ext/pcre/pcre2lib/pcre2_script_run.lo: /Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib/pcre2_script_run.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/pcre/ -I/Users/sardor/Downloads/php-8.1.11/ext/pcre/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -DHAVE_CONFIG_H -I/Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -c /Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib/pcre2_script_run.c -o ext/pcre/pcre2lib/pcre2_script_run.lo  -MMD -MF ext/pcre/pcre2lib/pcre2_script_run.dep -MT ext/pcre/pcre2lib/pcre2_script_run.lo
+-include ext/pcre/php_pcre.dep
+ext/pcre/php_pcre.lo: /Users/sardor/Downloads/php-8.1.11/ext/pcre/php_pcre.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/pcre/ -I/Users/sardor/Downloads/php-8.1.11/ext/pcre/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -DHAVE_CONFIG_H -I/Users/sardor/Downloads/php-8.1.11/ext/pcre/pcre2lib -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -c /Users/sardor/Downloads/php-8.1.11/ext/pcre/php_pcre.c -o ext/pcre/php_pcre.lo  -MMD -MF ext/pcre/php_pcre.dep -MT ext/pcre/php_pcre.lo
+-include ext/sqlite3/sqlite3.dep
+ext/sqlite3/sqlite3.lo: /Users/sardor/Downloads/php-8.1.11/ext/sqlite3/sqlite3.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/sqlite3/ -I/Users/sardor/Downloads/php-8.1.11/ext/sqlite3/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -c /Users/sardor/Downloads/php-8.1.11/ext/sqlite3/sqlite3.c -o ext/sqlite3/sqlite3.lo  -MMD -MF ext/sqlite3/sqlite3.dep -MT ext/sqlite3/sqlite3.lo
+-include ext/ctype/ctype.dep
+ext/ctype/ctype.lo: /Users/sardor/Downloads/php-8.1.11/ext/ctype/ctype.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/ctype/ -I/Users/sardor/Downloads/php-8.1.11/ext/ctype/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/sardor/Downloads/php-8.1.11/ext/ctype/ctype.c -o ext/ctype/ctype.lo  -MMD -MF ext/ctype/ctype.dep -MT ext/ctype/ctype.lo
+-include ext/dom/php_dom.dep
+ext/dom/php_dom.lo: /Users/sardor/Downloads/php-8.1.11/ext/dom/php_dom.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/dom/ -I/Users/sardor/Downloads/php-8.1.11/ext/dom/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/sardor/Downloads/php-8.1.11/ext/dom/php_dom.c -o ext/dom/php_dom.lo  -MMD -MF ext/dom/php_dom.dep -MT ext/dom/php_dom.lo
+-include ext/dom/attr.dep
+ext/dom/attr.lo: /Users/sardor/Downloads/php-8.1.11/ext/dom/attr.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/dom/ -I/Users/sardor/Downloads/php-8.1.11/ext/dom/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/sardor/Downloads/php-8.1.11/ext/dom/attr.c -o ext/dom/attr.lo  -MMD -MF ext/dom/attr.dep -MT ext/dom/attr.lo
+-include ext/dom/document.dep
+ext/dom/document.lo: /Users/sardor/Downloads/php-8.1.11/ext/dom/document.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/dom/ -I/Users/sardor/Downloads/php-8.1.11/ext/dom/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/sardor/Downloads/php-8.1.11/ext/dom/document.c -o ext/dom/document.lo  -MMD -MF ext/dom/document.dep -MT ext/dom/document.lo
+-include ext/dom/domexception.dep
+ext/dom/domexception.lo: /Users/sardor/Downloads/php-8.1.11/ext/dom/domexception.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/dom/ -I/Users/sardor/Downloads/php-8.1.11/ext/dom/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/sardor/Downloads/php-8.1.11/ext/dom/domexception.c -o ext/dom/domexception.lo  -MMD -MF ext/dom/domexception.dep -MT ext/dom/domexception.lo
+-include ext/dom/parentnode.dep
+ext/dom/parentnode.lo: /Users/sardor/Downloads/php-8.1.11/ext/dom/parentnode.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/dom/ -I/Users/sardor/Downloads/php-8.1.11/ext/dom/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/sardor/Downloads/php-8.1.11/ext/dom/parentnode.c -o ext/dom/parentnode.lo  -MMD -MF ext/dom/parentnode.dep -MT ext/dom/parentnode.lo
+-include ext/dom/processinginstruction.dep
+ext/dom/processinginstruction.lo: /Users/sardor/Downloads/php-8.1.11/ext/dom/processinginstruction.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/dom/ -I/Users/sardor/Downloads/php-8.1.11/ext/dom/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/sardor/Downloads/php-8.1.11/ext/dom/processinginstruction.c -o ext/dom/processinginstruction.lo  -MMD -MF ext/dom/processinginstruction.dep -MT ext/dom/processinginstruction.lo
+-include ext/dom/cdatasection.dep
+ext/dom/cdatasection.lo: /Users/sardor/Downloads/php-8.1.11/ext/dom/cdatasection.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/dom/ -I/Users/sardor/Downloads/php-8.1.11/ext/dom/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/sardor/Downloads/php-8.1.11/ext/dom/cdatasection.c -o ext/dom/cdatasection.lo  -MMD -MF ext/dom/cdatasection.dep -MT ext/dom/cdatasection.lo
+-include ext/dom/documentfragment.dep
+ext/dom/documentfragment.lo: /Users/sardor/Downloads/php-8.1.11/ext/dom/documentfragment.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/dom/ -I/Users/sardor/Downloads/php-8.1.11/ext/dom/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/sardor/Downloads/php-8.1.11/ext/dom/documentfragment.c -o ext/dom/documentfragment.lo  -MMD -MF ext/dom/documentfragment.dep -MT ext/dom/documentfragment.lo
+-include ext/dom/domimplementation.dep
+ext/dom/domimplementation.lo: /Users/sardor/Downloads/php-8.1.11/ext/dom/domimplementation.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/dom/ -I/Users/sardor/Downloads/php-8.1.11/ext/dom/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/sardor/Downloads/php-8.1.11/ext/dom/domimplementation.c -o ext/dom/domimplementation.lo  -MMD -MF ext/dom/domimplementation.dep -MT ext/dom/domimplementation.lo
+-include ext/dom/element.dep
+ext/dom/element.lo: /Users/sardor/Downloads/php-8.1.11/ext/dom/element.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/dom/ -I/Users/sardor/Downloads/php-8.1.11/ext/dom/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/sardor/Downloads/php-8.1.11/ext/dom/element.c -o ext/dom/element.lo  -MMD -MF ext/dom/element.dep -MT ext/dom/element.lo
+-include ext/dom/node.dep
+ext/dom/node.lo: /Users/sardor/Downloads/php-8.1.11/ext/dom/node.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/dom/ -I/Users/sardor/Downloads/php-8.1.11/ext/dom/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/sardor/Downloads/php-8.1.11/ext/dom/node.c -o ext/dom/node.lo  -MMD -MF ext/dom/node.dep -MT ext/dom/node.lo
+-include ext/dom/characterdata.dep
+ext/dom/characterdata.lo: /Users/sardor/Downloads/php-8.1.11/ext/dom/characterdata.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/dom/ -I/Users/sardor/Downloads/php-8.1.11/ext/dom/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/sardor/Downloads/php-8.1.11/ext/dom/characterdata.c -o ext/dom/characterdata.lo  -MMD -MF ext/dom/characterdata.dep -MT ext/dom/characterdata.lo
+-include ext/dom/documenttype.dep
+ext/dom/documenttype.lo: /Users/sardor/Downloads/php-8.1.11/ext/dom/documenttype.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/dom/ -I/Users/sardor/Downloads/php-8.1.11/ext/dom/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/sardor/Downloads/php-8.1.11/ext/dom/documenttype.c -o ext/dom/documenttype.lo  -MMD -MF ext/dom/documenttype.dep -MT ext/dom/documenttype.lo
+-include ext/dom/entity.dep
+ext/dom/entity.lo: /Users/sardor/Downloads/php-8.1.11/ext/dom/entity.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/dom/ -I/Users/sardor/Downloads/php-8.1.11/ext/dom/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/sardor/Downloads/php-8.1.11/ext/dom/entity.c -o ext/dom/entity.lo  -MMD -MF ext/dom/entity.dep -MT ext/dom/entity.lo
+-include ext/dom/nodelist.dep
+ext/dom/nodelist.lo: /Users/sardor/Downloads/php-8.1.11/ext/dom/nodelist.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/dom/ -I/Users/sardor/Downloads/php-8.1.11/ext/dom/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/sardor/Downloads/php-8.1.11/ext/dom/nodelist.c -o ext/dom/nodelist.lo  -MMD -MF ext/dom/nodelist.dep -MT ext/dom/nodelist.lo
+-include ext/dom/text.dep
+ext/dom/text.lo: /Users/sardor/Downloads/php-8.1.11/ext/dom/text.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/dom/ -I/Users/sardor/Downloads/php-8.1.11/ext/dom/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/sardor/Downloads/php-8.1.11/ext/dom/text.c -o ext/dom/text.lo  -MMD -MF ext/dom/text.dep -MT ext/dom/text.lo
+-include ext/dom/comment.dep
+ext/dom/comment.lo: /Users/sardor/Downloads/php-8.1.11/ext/dom/comment.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/dom/ -I/Users/sardor/Downloads/php-8.1.11/ext/dom/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/sardor/Downloads/php-8.1.11/ext/dom/comment.c -o ext/dom/comment.lo  -MMD -MF ext/dom/comment.dep -MT ext/dom/comment.lo
+-include ext/dom/entityreference.dep
+ext/dom/entityreference.lo: /Users/sardor/Downloads/php-8.1.11/ext/dom/entityreference.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/dom/ -I/Users/sardor/Downloads/php-8.1.11/ext/dom/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/sardor/Downloads/php-8.1.11/ext/dom/entityreference.c -o ext/dom/entityreference.lo  -MMD -MF ext/dom/entityreference.dep -MT ext/dom/entityreference.lo
+-include ext/dom/notation.dep
+ext/dom/notation.lo: /Users/sardor/Downloads/php-8.1.11/ext/dom/notation.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/dom/ -I/Users/sardor/Downloads/php-8.1.11/ext/dom/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/sardor/Downloads/php-8.1.11/ext/dom/notation.c -o ext/dom/notation.lo  -MMD -MF ext/dom/notation.dep -MT ext/dom/notation.lo
+-include ext/dom/xpath.dep
+ext/dom/xpath.lo: /Users/sardor/Downloads/php-8.1.11/ext/dom/xpath.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/dom/ -I/Users/sardor/Downloads/php-8.1.11/ext/dom/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/sardor/Downloads/php-8.1.11/ext/dom/xpath.c -o ext/dom/xpath.lo  -MMD -MF ext/dom/xpath.dep -MT ext/dom/xpath.lo
+-include ext/dom/dom_iterators.dep
+ext/dom/dom_iterators.lo: /Users/sardor/Downloads/php-8.1.11/ext/dom/dom_iterators.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/dom/ -I/Users/sardor/Downloads/php-8.1.11/ext/dom/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/sardor/Downloads/php-8.1.11/ext/dom/dom_iterators.c -o ext/dom/dom_iterators.lo  -MMD -MF ext/dom/dom_iterators.dep -MT ext/dom/dom_iterators.lo
+-include ext/dom/namednodemap.dep
+ext/dom/namednodemap.lo: /Users/sardor/Downloads/php-8.1.11/ext/dom/namednodemap.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/dom/ -I/Users/sardor/Downloads/php-8.1.11/ext/dom/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/sardor/Downloads/php-8.1.11/ext/dom/namednodemap.c -o ext/dom/namednodemap.lo  -MMD -MF ext/dom/namednodemap.dep -MT ext/dom/namednodemap.lo
+-include ext/fileinfo/fileinfo.dep
+ext/fileinfo/fileinfo.lo: /Users/sardor/Downloads/php-8.1.11/ext/fileinfo/fileinfo.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/fileinfo/ -I/Users/sardor/Downloads/php-8.1.11/ext/fileinfo/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -I/Users/sardor/Downloads/php-8.1.11/ext/fileinfo/libmagic -c /Users/sardor/Downloads/php-8.1.11/ext/fileinfo/fileinfo.c -o ext/fileinfo/fileinfo.lo  -MMD -MF ext/fileinfo/fileinfo.dep -MT ext/fileinfo/fileinfo.lo
+-include ext/fileinfo/libmagic/apprentice.dep
+ext/fileinfo/libmagic/apprentice.lo: /Users/sardor/Downloads/php-8.1.11/ext/fileinfo/libmagic/apprentice.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/fileinfo/ -I/Users/sardor/Downloads/php-8.1.11/ext/fileinfo/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -I/Users/sardor/Downloads/php-8.1.11/ext/fileinfo/libmagic -c /Users/sardor/Downloads/php-8.1.11/ext/fileinfo/libmagic/apprentice.c -o ext/fileinfo/libmagic/apprentice.lo  -MMD -MF ext/fileinfo/libmagic/apprentice.dep -MT ext/fileinfo/libmagic/apprentice.lo
+-include ext/fileinfo/libmagic/apptype.dep
+ext/fileinfo/libmagic/apptype.lo: /Users/sardor/Downloads/php-8.1.11/ext/fileinfo/libmagic/apptype.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/fileinfo/ -I/Users/sardor/Downloads/php-8.1.11/ext/fileinfo/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -I/Users/sardor/Downloads/php-8.1.11/ext/fileinfo/libmagic -c /Users/sardor/Downloads/php-8.1.11/ext/fileinfo/libmagic/apptype.c -o ext/fileinfo/libmagic/apptype.lo  -MMD -MF ext/fileinfo/libmagic/apptype.dep -MT ext/fileinfo/libmagic/apptype.lo
+-include ext/fileinfo/libmagic/ascmagic.dep
+ext/fileinfo/libmagic/ascmagic.lo: /Users/sardor/Downloads/php-8.1.11/ext/fileinfo/libmagic/ascmagic.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/fileinfo/ -I/Users/sardor/Downloads/php-8.1.11/ext/fileinfo/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -I/Users/sardor/Downloads/php-8.1.11/ext/fileinfo/libmagic -c /Users/sardor/Downloads/php-8.1.11/ext/fileinfo/libmagic/ascmagic.c -o ext/fileinfo/libmagic/ascmagic.lo  -MMD -MF ext/fileinfo/libmagic/ascmagic.dep -MT ext/fileinfo/libmagic/ascmagic.lo
+-include ext/fileinfo/libmagic/cdf.dep
+ext/fileinfo/libmagic/cdf.lo: /Users/sardor/Downloads/php-8.1.11/ext/fileinfo/libmagic/cdf.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/fileinfo/ -I/Users/sardor/Downloads/php-8.1.11/ext/fileinfo/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -I/Users/sardor/Downloads/php-8.1.11/ext/fileinfo/libmagic -c /Users/sardor/Downloads/php-8.1.11/ext/fileinfo/libmagic/cdf.c -o ext/fileinfo/libmagic/cdf.lo  -MMD -MF ext/fileinfo/libmagic/cdf.dep -MT ext/fileinfo/libmagic/cdf.lo
+-include ext/fileinfo/libmagic/cdf_time.dep
+ext/fileinfo/libmagic/cdf_time.lo: /Users/sardor/Downloads/php-8.1.11/ext/fileinfo/libmagic/cdf_time.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/fileinfo/ -I/Users/sardor/Downloads/php-8.1.11/ext/fileinfo/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -I/Users/sardor/Downloads/php-8.1.11/ext/fileinfo/libmagic -c /Users/sardor/Downloads/php-8.1.11/ext/fileinfo/libmagic/cdf_time.c -o ext/fileinfo/libmagic/cdf_time.lo  -MMD -MF ext/fileinfo/libmagic/cdf_time.dep -MT ext/fileinfo/libmagic/cdf_time.lo
+-include ext/fileinfo/libmagic/compress.dep
+ext/fileinfo/libmagic/compress.lo: /Users/sardor/Downloads/php-8.1.11/ext/fileinfo/libmagic/compress.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/fileinfo/ -I/Users/sardor/Downloads/php-8.1.11/ext/fileinfo/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -I/Users/sardor/Downloads/php-8.1.11/ext/fileinfo/libmagic -c /Users/sardor/Downloads/php-8.1.11/ext/fileinfo/libmagic/compress.c -o ext/fileinfo/libmagic/compress.lo  -MMD -MF ext/fileinfo/libmagic/compress.dep -MT ext/fileinfo/libmagic/compress.lo
+-include ext/fileinfo/libmagic/encoding.dep
+ext/fileinfo/libmagic/encoding.lo: /Users/sardor/Downloads/php-8.1.11/ext/fileinfo/libmagic/encoding.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/fileinfo/ -I/Users/sardor/Downloads/php-8.1.11/ext/fileinfo/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -I/Users/sardor/Downloads/php-8.1.11/ext/fileinfo/libmagic -c /Users/sardor/Downloads/php-8.1.11/ext/fileinfo/libmagic/encoding.c -o ext/fileinfo/libmagic/encoding.lo  -MMD -MF ext/fileinfo/libmagic/encoding.dep -MT ext/fileinfo/libmagic/encoding.lo
+-include ext/fileinfo/libmagic/fsmagic.dep
+ext/fileinfo/libmagic/fsmagic.lo: /Users/sardor/Downloads/php-8.1.11/ext/fileinfo/libmagic/fsmagic.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/fileinfo/ -I/Users/sardor/Downloads/php-8.1.11/ext/fileinfo/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -I/Users/sardor/Downloads/php-8.1.11/ext/fileinfo/libmagic -c /Users/sardor/Downloads/php-8.1.11/ext/fileinfo/libmagic/fsmagic.c -o ext/fileinfo/libmagic/fsmagic.lo  -MMD -MF ext/fileinfo/libmagic/fsmagic.dep -MT ext/fileinfo/libmagic/fsmagic.lo
+-include ext/fileinfo/libmagic/funcs.dep
+ext/fileinfo/libmagic/funcs.lo: /Users/sardor/Downloads/php-8.1.11/ext/fileinfo/libmagic/funcs.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/fileinfo/ -I/Users/sardor/Downloads/php-8.1.11/ext/fileinfo/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -I/Users/sardor/Downloads/php-8.1.11/ext/fileinfo/libmagic -c /Users/sardor/Downloads/php-8.1.11/ext/fileinfo/libmagic/funcs.c -o ext/fileinfo/libmagic/funcs.lo  -MMD -MF ext/fileinfo/libmagic/funcs.dep -MT ext/fileinfo/libmagic/funcs.lo
+-include ext/fileinfo/libmagic/is_json.dep
+ext/fileinfo/libmagic/is_json.lo: /Users/sardor/Downloads/php-8.1.11/ext/fileinfo/libmagic/is_json.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/fileinfo/ -I/Users/sardor/Downloads/php-8.1.11/ext/fileinfo/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -I/Users/sardor/Downloads/php-8.1.11/ext/fileinfo/libmagic -c /Users/sardor/Downloads/php-8.1.11/ext/fileinfo/libmagic/is_json.c -o ext/fileinfo/libmagic/is_json.lo  -MMD -MF ext/fileinfo/libmagic/is_json.dep -MT ext/fileinfo/libmagic/is_json.lo
+-include ext/fileinfo/libmagic/is_tar.dep
+ext/fileinfo/libmagic/is_tar.lo: /Users/sardor/Downloads/php-8.1.11/ext/fileinfo/libmagic/is_tar.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/fileinfo/ -I/Users/sardor/Downloads/php-8.1.11/ext/fileinfo/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -I/Users/sardor/Downloads/php-8.1.11/ext/fileinfo/libmagic -c /Users/sardor/Downloads/php-8.1.11/ext/fileinfo/libmagic/is_tar.c -o ext/fileinfo/libmagic/is_tar.lo  -MMD -MF ext/fileinfo/libmagic/is_tar.dep -MT ext/fileinfo/libmagic/is_tar.lo
+-include ext/fileinfo/libmagic/magic.dep
+ext/fileinfo/libmagic/magic.lo: /Users/sardor/Downloads/php-8.1.11/ext/fileinfo/libmagic/magic.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/fileinfo/ -I/Users/sardor/Downloads/php-8.1.11/ext/fileinfo/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -I/Users/sardor/Downloads/php-8.1.11/ext/fileinfo/libmagic -c /Users/sardor/Downloads/php-8.1.11/ext/fileinfo/libmagic/magic.c -o ext/fileinfo/libmagic/magic.lo  -MMD -MF ext/fileinfo/libmagic/magic.dep -MT ext/fileinfo/libmagic/magic.lo
+-include ext/fileinfo/libmagic/print.dep
+ext/fileinfo/libmagic/print.lo: /Users/sardor/Downloads/php-8.1.11/ext/fileinfo/libmagic/print.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/fileinfo/ -I/Users/sardor/Downloads/php-8.1.11/ext/fileinfo/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -I/Users/sardor/Downloads/php-8.1.11/ext/fileinfo/libmagic -c /Users/sardor/Downloads/php-8.1.11/ext/fileinfo/libmagic/print.c -o ext/fileinfo/libmagic/print.lo  -MMD -MF ext/fileinfo/libmagic/print.dep -MT ext/fileinfo/libmagic/print.lo
+-include ext/fileinfo/libmagic/readcdf.dep
+ext/fileinfo/libmagic/readcdf.lo: /Users/sardor/Downloads/php-8.1.11/ext/fileinfo/libmagic/readcdf.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/fileinfo/ -I/Users/sardor/Downloads/php-8.1.11/ext/fileinfo/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -I/Users/sardor/Downloads/php-8.1.11/ext/fileinfo/libmagic -c /Users/sardor/Downloads/php-8.1.11/ext/fileinfo/libmagic/readcdf.c -o ext/fileinfo/libmagic/readcdf.lo  -MMD -MF ext/fileinfo/libmagic/readcdf.dep -MT ext/fileinfo/libmagic/readcdf.lo
+-include ext/fileinfo/libmagic/softmagic.dep
+ext/fileinfo/libmagic/softmagic.lo: /Users/sardor/Downloads/php-8.1.11/ext/fileinfo/libmagic/softmagic.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/fileinfo/ -I/Users/sardor/Downloads/php-8.1.11/ext/fileinfo/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -I/Users/sardor/Downloads/php-8.1.11/ext/fileinfo/libmagic -c /Users/sardor/Downloads/php-8.1.11/ext/fileinfo/libmagic/softmagic.c -o ext/fileinfo/libmagic/softmagic.lo  -MMD -MF ext/fileinfo/libmagic/softmagic.dep -MT ext/fileinfo/libmagic/softmagic.lo
+-include ext/fileinfo/libmagic/der.dep
+ext/fileinfo/libmagic/der.lo: /Users/sardor/Downloads/php-8.1.11/ext/fileinfo/libmagic/der.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/fileinfo/ -I/Users/sardor/Downloads/php-8.1.11/ext/fileinfo/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -I/Users/sardor/Downloads/php-8.1.11/ext/fileinfo/libmagic -c /Users/sardor/Downloads/php-8.1.11/ext/fileinfo/libmagic/der.c -o ext/fileinfo/libmagic/der.lo  -MMD -MF ext/fileinfo/libmagic/der.dep -MT ext/fileinfo/libmagic/der.lo
+-include ext/fileinfo/libmagic/buffer.dep
+ext/fileinfo/libmagic/buffer.lo: /Users/sardor/Downloads/php-8.1.11/ext/fileinfo/libmagic/buffer.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/fileinfo/ -I/Users/sardor/Downloads/php-8.1.11/ext/fileinfo/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -I/Users/sardor/Downloads/php-8.1.11/ext/fileinfo/libmagic -c /Users/sardor/Downloads/php-8.1.11/ext/fileinfo/libmagic/buffer.c -o ext/fileinfo/libmagic/buffer.lo  -MMD -MF ext/fileinfo/libmagic/buffer.dep -MT ext/fileinfo/libmagic/buffer.lo
+-include ext/fileinfo/libmagic/is_csv.dep
+ext/fileinfo/libmagic/is_csv.lo: /Users/sardor/Downloads/php-8.1.11/ext/fileinfo/libmagic/is_csv.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/fileinfo/ -I/Users/sardor/Downloads/php-8.1.11/ext/fileinfo/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -I/Users/sardor/Downloads/php-8.1.11/ext/fileinfo/libmagic -c /Users/sardor/Downloads/php-8.1.11/ext/fileinfo/libmagic/is_csv.c -o ext/fileinfo/libmagic/is_csv.lo  -MMD -MF ext/fileinfo/libmagic/is_csv.dep -MT ext/fileinfo/libmagic/is_csv.lo
+-include ext/filter/filter.dep
+ext/filter/filter.lo: /Users/sardor/Downloads/php-8.1.11/ext/filter/filter.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/filter/ -I/Users/sardor/Downloads/php-8.1.11/ext/filter/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -c /Users/sardor/Downloads/php-8.1.11/ext/filter/filter.c -o ext/filter/filter.lo  -MMD -MF ext/filter/filter.dep -MT ext/filter/filter.lo
+-include ext/filter/sanitizing_filters.dep
+ext/filter/sanitizing_filters.lo: /Users/sardor/Downloads/php-8.1.11/ext/filter/sanitizing_filters.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/filter/ -I/Users/sardor/Downloads/php-8.1.11/ext/filter/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -c /Users/sardor/Downloads/php-8.1.11/ext/filter/sanitizing_filters.c -o ext/filter/sanitizing_filters.lo  -MMD -MF ext/filter/sanitizing_filters.dep -MT ext/filter/sanitizing_filters.lo
+-include ext/filter/logical_filters.dep
+ext/filter/logical_filters.lo: /Users/sardor/Downloads/php-8.1.11/ext/filter/logical_filters.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/filter/ -I/Users/sardor/Downloads/php-8.1.11/ext/filter/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -c /Users/sardor/Downloads/php-8.1.11/ext/filter/logical_filters.c -o ext/filter/logical_filters.lo  -MMD -MF ext/filter/logical_filters.dep -MT ext/filter/logical_filters.lo
+-include ext/filter/callback_filter.dep
+ext/filter/callback_filter.lo: /Users/sardor/Downloads/php-8.1.11/ext/filter/callback_filter.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/filter/ -I/Users/sardor/Downloads/php-8.1.11/ext/filter/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -c /Users/sardor/Downloads/php-8.1.11/ext/filter/callback_filter.c -o ext/filter/callback_filter.lo  -MMD -MF ext/filter/callback_filter.dep -MT ext/filter/callback_filter.lo
+-include ext/hash/hash.dep
+ext/hash/hash.lo: /Users/sardor/Downloads/php-8.1.11/ext/hash/hash.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/hash/ -I/Users/sardor/Downloads/php-8.1.11/ext/hash/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -I/Users/sardor/Downloads/php-8.1.11/ext/hash/sha3/generic64lc -DKeccakP200_excluded -DKeccakP400_excluded -DKeccakP800_excluded -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -I/Users/sardor/Downloads/php-8.1.11/ext/hash/xxhash -c /Users/sardor/Downloads/php-8.1.11/ext/hash/hash.c -o ext/hash/hash.lo  -MMD -MF ext/hash/hash.dep -MT ext/hash/hash.lo
+-include ext/hash/hash_md.dep
+ext/hash/hash_md.lo: /Users/sardor/Downloads/php-8.1.11/ext/hash/hash_md.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/hash/ -I/Users/sardor/Downloads/php-8.1.11/ext/hash/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -I/Users/sardor/Downloads/php-8.1.11/ext/hash/sha3/generic64lc -DKeccakP200_excluded -DKeccakP400_excluded -DKeccakP800_excluded -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -I/Users/sardor/Downloads/php-8.1.11/ext/hash/xxhash -c /Users/sardor/Downloads/php-8.1.11/ext/hash/hash_md.c -o ext/hash/hash_md.lo  -MMD -MF ext/hash/hash_md.dep -MT ext/hash/hash_md.lo
+-include ext/hash/hash_sha.dep
+ext/hash/hash_sha.lo: /Users/sardor/Downloads/php-8.1.11/ext/hash/hash_sha.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/hash/ -I/Users/sardor/Downloads/php-8.1.11/ext/hash/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -I/Users/sardor/Downloads/php-8.1.11/ext/hash/sha3/generic64lc -DKeccakP200_excluded -DKeccakP400_excluded -DKeccakP800_excluded -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -I/Users/sardor/Downloads/php-8.1.11/ext/hash/xxhash -c /Users/sardor/Downloads/php-8.1.11/ext/hash/hash_sha.c -o ext/hash/hash_sha.lo  -MMD -MF ext/hash/hash_sha.dep -MT ext/hash/hash_sha.lo
+-include ext/hash/hash_ripemd.dep
+ext/hash/hash_ripemd.lo: /Users/sardor/Downloads/php-8.1.11/ext/hash/hash_ripemd.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/hash/ -I/Users/sardor/Downloads/php-8.1.11/ext/hash/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -I/Users/sardor/Downloads/php-8.1.11/ext/hash/sha3/generic64lc -DKeccakP200_excluded -DKeccakP400_excluded -DKeccakP800_excluded -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -I/Users/sardor/Downloads/php-8.1.11/ext/hash/xxhash -c /Users/sardor/Downloads/php-8.1.11/ext/hash/hash_ripemd.c -o ext/hash/hash_ripemd.lo  -MMD -MF ext/hash/hash_ripemd.dep -MT ext/hash/hash_ripemd.lo
+-include ext/hash/hash_haval.dep
+ext/hash/hash_haval.lo: /Users/sardor/Downloads/php-8.1.11/ext/hash/hash_haval.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/hash/ -I/Users/sardor/Downloads/php-8.1.11/ext/hash/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -I/Users/sardor/Downloads/php-8.1.11/ext/hash/sha3/generic64lc -DKeccakP200_excluded -DKeccakP400_excluded -DKeccakP800_excluded -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -I/Users/sardor/Downloads/php-8.1.11/ext/hash/xxhash -c /Users/sardor/Downloads/php-8.1.11/ext/hash/hash_haval.c -o ext/hash/hash_haval.lo  -MMD -MF ext/hash/hash_haval.dep -MT ext/hash/hash_haval.lo
+-include ext/hash/hash_tiger.dep
+ext/hash/hash_tiger.lo: /Users/sardor/Downloads/php-8.1.11/ext/hash/hash_tiger.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/hash/ -I/Users/sardor/Downloads/php-8.1.11/ext/hash/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -I/Users/sardor/Downloads/php-8.1.11/ext/hash/sha3/generic64lc -DKeccakP200_excluded -DKeccakP400_excluded -DKeccakP800_excluded -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -I/Users/sardor/Downloads/php-8.1.11/ext/hash/xxhash -c /Users/sardor/Downloads/php-8.1.11/ext/hash/hash_tiger.c -o ext/hash/hash_tiger.lo  -MMD -MF ext/hash/hash_tiger.dep -MT ext/hash/hash_tiger.lo
+-include ext/hash/hash_gost.dep
+ext/hash/hash_gost.lo: /Users/sardor/Downloads/php-8.1.11/ext/hash/hash_gost.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/hash/ -I/Users/sardor/Downloads/php-8.1.11/ext/hash/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -I/Users/sardor/Downloads/php-8.1.11/ext/hash/sha3/generic64lc -DKeccakP200_excluded -DKeccakP400_excluded -DKeccakP800_excluded -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -I/Users/sardor/Downloads/php-8.1.11/ext/hash/xxhash -c /Users/sardor/Downloads/php-8.1.11/ext/hash/hash_gost.c -o ext/hash/hash_gost.lo  -MMD -MF ext/hash/hash_gost.dep -MT ext/hash/hash_gost.lo
+-include ext/hash/hash_snefru.dep
+ext/hash/hash_snefru.lo: /Users/sardor/Downloads/php-8.1.11/ext/hash/hash_snefru.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/hash/ -I/Users/sardor/Downloads/php-8.1.11/ext/hash/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -I/Users/sardor/Downloads/php-8.1.11/ext/hash/sha3/generic64lc -DKeccakP200_excluded -DKeccakP400_excluded -DKeccakP800_excluded -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -I/Users/sardor/Downloads/php-8.1.11/ext/hash/xxhash -c /Users/sardor/Downloads/php-8.1.11/ext/hash/hash_snefru.c -o ext/hash/hash_snefru.lo  -MMD -MF ext/hash/hash_snefru.dep -MT ext/hash/hash_snefru.lo
+-include ext/hash/hash_whirlpool.dep
+ext/hash/hash_whirlpool.lo: /Users/sardor/Downloads/php-8.1.11/ext/hash/hash_whirlpool.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/hash/ -I/Users/sardor/Downloads/php-8.1.11/ext/hash/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -I/Users/sardor/Downloads/php-8.1.11/ext/hash/sha3/generic64lc -DKeccakP200_excluded -DKeccakP400_excluded -DKeccakP800_excluded -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -I/Users/sardor/Downloads/php-8.1.11/ext/hash/xxhash -c /Users/sardor/Downloads/php-8.1.11/ext/hash/hash_whirlpool.c -o ext/hash/hash_whirlpool.lo  -MMD -MF ext/hash/hash_whirlpool.dep -MT ext/hash/hash_whirlpool.lo
+-include ext/hash/hash_adler32.dep
+ext/hash/hash_adler32.lo: /Users/sardor/Downloads/php-8.1.11/ext/hash/hash_adler32.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/hash/ -I/Users/sardor/Downloads/php-8.1.11/ext/hash/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -I/Users/sardor/Downloads/php-8.1.11/ext/hash/sha3/generic64lc -DKeccakP200_excluded -DKeccakP400_excluded -DKeccakP800_excluded -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -I/Users/sardor/Downloads/php-8.1.11/ext/hash/xxhash -c /Users/sardor/Downloads/php-8.1.11/ext/hash/hash_adler32.c -o ext/hash/hash_adler32.lo  -MMD -MF ext/hash/hash_adler32.dep -MT ext/hash/hash_adler32.lo
+-include ext/hash/hash_crc32.dep
+ext/hash/hash_crc32.lo: /Users/sardor/Downloads/php-8.1.11/ext/hash/hash_crc32.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/hash/ -I/Users/sardor/Downloads/php-8.1.11/ext/hash/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -I/Users/sardor/Downloads/php-8.1.11/ext/hash/sha3/generic64lc -DKeccakP200_excluded -DKeccakP400_excluded -DKeccakP800_excluded -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -I/Users/sardor/Downloads/php-8.1.11/ext/hash/xxhash -c /Users/sardor/Downloads/php-8.1.11/ext/hash/hash_crc32.c -o ext/hash/hash_crc32.lo  -MMD -MF ext/hash/hash_crc32.dep -MT ext/hash/hash_crc32.lo
+-include ext/hash/hash_fnv.dep
+ext/hash/hash_fnv.lo: /Users/sardor/Downloads/php-8.1.11/ext/hash/hash_fnv.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/hash/ -I/Users/sardor/Downloads/php-8.1.11/ext/hash/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -I/Users/sardor/Downloads/php-8.1.11/ext/hash/sha3/generic64lc -DKeccakP200_excluded -DKeccakP400_excluded -DKeccakP800_excluded -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -I/Users/sardor/Downloads/php-8.1.11/ext/hash/xxhash -c /Users/sardor/Downloads/php-8.1.11/ext/hash/hash_fnv.c -o ext/hash/hash_fnv.lo  -MMD -MF ext/hash/hash_fnv.dep -MT ext/hash/hash_fnv.lo
+-include ext/hash/hash_joaat.dep
+ext/hash/hash_joaat.lo: /Users/sardor/Downloads/php-8.1.11/ext/hash/hash_joaat.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/hash/ -I/Users/sardor/Downloads/php-8.1.11/ext/hash/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -I/Users/sardor/Downloads/php-8.1.11/ext/hash/sha3/generic64lc -DKeccakP200_excluded -DKeccakP400_excluded -DKeccakP800_excluded -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -I/Users/sardor/Downloads/php-8.1.11/ext/hash/xxhash -c /Users/sardor/Downloads/php-8.1.11/ext/hash/hash_joaat.c -o ext/hash/hash_joaat.lo  -MMD -MF ext/hash/hash_joaat.dep -MT ext/hash/hash_joaat.lo
+-include ext/hash/sha3/generic64lc/KeccakP-1600-opt64.dep
+ext/hash/sha3/generic64lc/KeccakP-1600-opt64.lo: /Users/sardor/Downloads/php-8.1.11/ext/hash/sha3/generic64lc/KeccakP-1600-opt64.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/hash/ -I/Users/sardor/Downloads/php-8.1.11/ext/hash/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -I/Users/sardor/Downloads/php-8.1.11/ext/hash/sha3/generic64lc -DKeccakP200_excluded -DKeccakP400_excluded -DKeccakP800_excluded -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -I/Users/sardor/Downloads/php-8.1.11/ext/hash/xxhash -c /Users/sardor/Downloads/php-8.1.11/ext/hash/sha3/generic64lc/KeccakP-1600-opt64.c -o ext/hash/sha3/generic64lc/KeccakP-1600-opt64.lo  -MMD -MF ext/hash/sha3/generic64lc/KeccakP-1600-opt64.dep -MT ext/hash/sha3/generic64lc/KeccakP-1600-opt64.lo
+-include ext/hash/sha3/generic64lc/KeccakHash.dep
+ext/hash/sha3/generic64lc/KeccakHash.lo: /Users/sardor/Downloads/php-8.1.11/ext/hash/sha3/generic64lc/KeccakHash.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/hash/ -I/Users/sardor/Downloads/php-8.1.11/ext/hash/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -I/Users/sardor/Downloads/php-8.1.11/ext/hash/sha3/generic64lc -DKeccakP200_excluded -DKeccakP400_excluded -DKeccakP800_excluded -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -I/Users/sardor/Downloads/php-8.1.11/ext/hash/xxhash -c /Users/sardor/Downloads/php-8.1.11/ext/hash/sha3/generic64lc/KeccakHash.c -o ext/hash/sha3/generic64lc/KeccakHash.lo  -MMD -MF ext/hash/sha3/generic64lc/KeccakHash.dep -MT ext/hash/sha3/generic64lc/KeccakHash.lo
+-include ext/hash/sha3/generic64lc/KeccakSponge.dep
+ext/hash/sha3/generic64lc/KeccakSponge.lo: /Users/sardor/Downloads/php-8.1.11/ext/hash/sha3/generic64lc/KeccakSponge.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/hash/ -I/Users/sardor/Downloads/php-8.1.11/ext/hash/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -I/Users/sardor/Downloads/php-8.1.11/ext/hash/sha3/generic64lc -DKeccakP200_excluded -DKeccakP400_excluded -DKeccakP800_excluded -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -I/Users/sardor/Downloads/php-8.1.11/ext/hash/xxhash -c /Users/sardor/Downloads/php-8.1.11/ext/hash/sha3/generic64lc/KeccakSponge.c -o ext/hash/sha3/generic64lc/KeccakSponge.lo  -MMD -MF ext/hash/sha3/generic64lc/KeccakSponge.dep -MT ext/hash/sha3/generic64lc/KeccakSponge.lo
+-include ext/hash/hash_sha3.dep
+ext/hash/hash_sha3.lo: /Users/sardor/Downloads/php-8.1.11/ext/hash/hash_sha3.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/hash/ -I/Users/sardor/Downloads/php-8.1.11/ext/hash/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -I/Users/sardor/Downloads/php-8.1.11/ext/hash/sha3/generic64lc -DKeccakP200_excluded -DKeccakP400_excluded -DKeccakP800_excluded -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -I/Users/sardor/Downloads/php-8.1.11/ext/hash/xxhash -c /Users/sardor/Downloads/php-8.1.11/ext/hash/hash_sha3.c -o ext/hash/hash_sha3.lo  -MMD -MF ext/hash/hash_sha3.dep -MT ext/hash/hash_sha3.lo
+-include ext/hash/murmur/PMurHash.dep
+ext/hash/murmur/PMurHash.lo: /Users/sardor/Downloads/php-8.1.11/ext/hash/murmur/PMurHash.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/hash/ -I/Users/sardor/Downloads/php-8.1.11/ext/hash/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -I/Users/sardor/Downloads/php-8.1.11/ext/hash/sha3/generic64lc -DKeccakP200_excluded -DKeccakP400_excluded -DKeccakP800_excluded -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -I/Users/sardor/Downloads/php-8.1.11/ext/hash/xxhash -c /Users/sardor/Downloads/php-8.1.11/ext/hash/murmur/PMurHash.c -o ext/hash/murmur/PMurHash.lo  -MMD -MF ext/hash/murmur/PMurHash.dep -MT ext/hash/murmur/PMurHash.lo
+-include ext/hash/murmur/PMurHash128.dep
+ext/hash/murmur/PMurHash128.lo: /Users/sardor/Downloads/php-8.1.11/ext/hash/murmur/PMurHash128.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/hash/ -I/Users/sardor/Downloads/php-8.1.11/ext/hash/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -I/Users/sardor/Downloads/php-8.1.11/ext/hash/sha3/generic64lc -DKeccakP200_excluded -DKeccakP400_excluded -DKeccakP800_excluded -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -I/Users/sardor/Downloads/php-8.1.11/ext/hash/xxhash -c /Users/sardor/Downloads/php-8.1.11/ext/hash/murmur/PMurHash128.c -o ext/hash/murmur/PMurHash128.lo  -MMD -MF ext/hash/murmur/PMurHash128.dep -MT ext/hash/murmur/PMurHash128.lo
+-include ext/hash/hash_murmur.dep
+ext/hash/hash_murmur.lo: /Users/sardor/Downloads/php-8.1.11/ext/hash/hash_murmur.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/hash/ -I/Users/sardor/Downloads/php-8.1.11/ext/hash/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -I/Users/sardor/Downloads/php-8.1.11/ext/hash/sha3/generic64lc -DKeccakP200_excluded -DKeccakP400_excluded -DKeccakP800_excluded -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -I/Users/sardor/Downloads/php-8.1.11/ext/hash/xxhash -c /Users/sardor/Downloads/php-8.1.11/ext/hash/hash_murmur.c -o ext/hash/hash_murmur.lo  -MMD -MF ext/hash/hash_murmur.dep -MT ext/hash/hash_murmur.lo
+-include ext/hash/hash_xxhash.dep
+ext/hash/hash_xxhash.lo: /Users/sardor/Downloads/php-8.1.11/ext/hash/hash_xxhash.c
+	$(LIBTOOL) --mode=compile $(CC) -Iext/hash/ -I/Users/sardor/Downloads/php-8.1.11/ext/hash/ $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -Wno-implicit-fallthrough -I/Users/sardor/Downloads/php-8.1.11/ext/hash/sha3/generic64lc -DKeccakP200_excluded -DKeccakP400_excluded -DKeccakP800_excluded -DZEND_ENABLE_STATIC_TSRMLS_CACHE=1 -I/Users/sardor/Downloads/php-8.1.11/ext/hash/xxhash -c /Users/sardor/Downloads/php-8.1.11/ext/hash/hash_xxhash.c -o ext/hash/hash_xxhash.lo  -MMD -MF ext/hash/hash_xxhash.dep -MT ext/hash/hash_xxhash.lo
